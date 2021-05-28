@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://the-internet.herokuapp.com/",
+    "env": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+    }
+}
