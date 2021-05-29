@@ -1,5 +1,3 @@
-const querystring = require('querystring');
-
 context('API Tests', () => {
     before(() => {
         Cypress.config('baseUrl', 'https://reqres.in/api/')
