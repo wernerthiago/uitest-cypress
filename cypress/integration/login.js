@@ -1,4 +1,7 @@
 context('Login Page tests', () => {
+    before(() => {
+        Cypress.config('baseUrl', 'http://the-internet.herokuapp.com/')
+    })
     beforeEach(() => {
       cy.visit('login')
     })
